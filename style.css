@@ -1,0 +1,253 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding: 30px 70px;
+}
+.container img {
+  width: 100%;
+  background-color: ;
+}
+.container .text {
+  position: absolute;
+  color: black;
+  font-size: 45px;
+  left: 50%;
+  top: 41%;
+  transform: translate(-50%, -50%);
+}
+.container .text-party {
+  position: absolute;
+  color: black;
+  font-size: 45px;
+  left: 42%;
+  top: 44%;
+  transform: translate(-10%, 10%);
+}
+.container .text-cel {
+  position: absolute;
+  color: black;
+  font-size: 45px;
+  left: 43%;
+  top: 50%;
+  transform: translate(-10%, 10%);
+}
+/*main section*/
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.off {
+  padding: 130px;
+  margin: 130px 0;
+}
+.off-title {
+  font-size: 35px;
+  font-size: 700;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.off-description-i {
+  font-size: 18px;
+  text-align: center;
+}
+.off-description-ii {
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+/*midnight party section*/
+.image {
+  width: 100%;
+  height: 65vh;
+  background-position: center;
+  background-size: cover;
+  background-image: url(image/party.png);
+}
+.image-overlayy {
+  width: 100%;
+  height: 65vh;
+  background-color: rgb(255, 247, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.midnight-text {
+  width: 40%;
+}
+.midnight-text-i {
+  font-size: 37px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-bottom: 12px;
+}
+.midnight-text-ii {
+  font-size: 15px;
+  margin-bottom: 18px;
+}
+.midnight-party {
+  margin-bottom: 40px;
+}
+/*new-park*/
+.new-park {
+  padding: 130px;
+  border-radius: 10px;
+  background-color: #de9a9a;
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 22px;
+}
+/*NEW BEST OFFER*/
+.newbestoffer-container {
+  display: flex;
+  gap: 61px;
+  margin-bottom: 50px;
+}
+.NEWBESTOFFER-i {
+  width: 30%;
+  text-align: center;
+  padding-top: 111px;
+}
+.NEWBESTOFFER-text {
+  text-align: center;
+  padding-top: 111px;
+ 
+  padding-left: 50px;
+ 
+}
+.newoffer-img{
+  width: 113px;
+  align-items: center;
+  padding-top: 111px;
+}
+/*holiday section*/
+.holidaysale-text{
+  text-align: center;
+}
+.holiday-pic{
+  display: flex;
+  gap: 70px;
+  margin-top: 18px;
+}
+.holiday-pic-i{
+  width: 674px;
+}
+.holiday-pic-ii{
+  width: 50%;
+}
+.holiday-pic-iii{
+  width: 100%;
+  height: 65vh;
+  background-position: center;
+  background-size: cover;
+  background-image: url(image/Rectangle\ 1.png)
+  
+}
+.holidaysale-text-i{
+margin-bottom: 8px;
+}
+.holidaysale-text-ii{
+  margin-bottom: 8px;
+  
+}
+.holiday-pic-iv{
+  width: 85px;
+}
+.holiday-pic-v{
+  width: 100%;
+}
+/*Our Awesome Portfolio*/
+.OurAwesomePortfolio{
+  width: 100%;
+  padding: 34px;
+  }
+.pic-i{
+  width: 330px;
+}
+.pic-ii{
+  width: 330px ;
+}
+.pic-iii{
+  width: 330px;
+}
+.pic-iv{
+  width: 330px;
+}
+.pic-v{
+  width: 330px;
+}
+.pic-vi{
+  width: 330px;
+}
+.thebestgift{
+  margin-top: 100px;
+}
+.thebestgift-i{
+  text-align: center;
+}
+/*subcribe nesletter*/
+#group61{
+  width: 45px;
+}
+.section-heading{
+  text-align: center;
+}
+#newletter{
+  margin: 128px 0;
+}
+.newsletter-main{
+  background-color: #de9a9a;
+  padding: 128px;
+}
+#newletter form{
+  max-width: 750px;
+  margin: 20px auto;
+  display: flex;
+  gap: 5px;
+}
+#newletter form input{
+  flex-grow: 1;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+}
+/*footer*/
+.footer-heading{
+  display: flex;
+  justify-content: space-around;
+  padding: 25px;
+  color: aliceblue;
+}
+.footer-main{
+  background-color: black;
+  
+}
+#facebook{
+  width: 25px;
+}
+#indtagram{
+  width: 25px;
+}
+#linkdin{
+  width: 25px;
+}
+#twitter{
+  width: 25px;
+}
+.footer-img{
+
+ display: flex;
+ gap: 9px;
+ justify-content: center;
+}
+.footer-last{
+  display: flex;
+  color: aliceblue;
+  justify-content: space-around;
+  padding: 25px;
+}
